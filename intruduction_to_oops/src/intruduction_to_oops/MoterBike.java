@@ -5,6 +5,10 @@ public class MoterBike {
 	// state
 	private int speed;
 
+	MoterBike(int speed) {
+		this.speed = speed;
+	}
+
 
 	public int getSpeed() {
 		return speed;
