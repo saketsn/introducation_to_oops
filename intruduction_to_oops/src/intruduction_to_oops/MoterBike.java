@@ -5,6 +5,10 @@ public class MoterBike {
 	// state
 	private int speed;
 
+	MoterBike() {
+		this(5);// calling constructor using constructor
+	}
+
 	MoterBike(int speed) {
 		this.speed = speed;
 	}
